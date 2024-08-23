@@ -42,9 +42,7 @@ I recommend reading through SDLHelper.Data.WorldExposed.
 A short summary of what you need to know is written at the top of the file.
 
 SDLHelper.SDLHelper abstracts some information from you. It initialises and shuts down many things, like the renderer. These functions have corresponding comments in SDLHelper.SDLHelper than you can read if you want to. A descriptive list of what SDLHelper loads for you can be found in the WorldRaw record in SDLHelper.Data.WorldExposed.
-During each frame, SDLHelper.SDLHelper also performs some useful operations. These are detailed at the withEventHandling in SDLHelper.SDLHelper.
-
-SDLHelper.KeyboardReader
+During each frame, SDLHelper.SDLHelper also performs some useful operations. These are detailed at the withEventHandling in SDLHelper.SDLHelper
 
 ----- RENDERING -----
 loadTexture :: (MonadIO m)
